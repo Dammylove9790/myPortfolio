@@ -12,8 +12,6 @@ body{
 
 #header{
     background: url("../oicImages/3.jpg");
-    position: ;
-    /* background-size: 100% 100%; */
     background-size: cover;
     height: 90vh;
 }
@@ -23,17 +21,22 @@ body{
     background-color: orange;
     position: fixed;
     z-index: 99;
-
 }
 
-.fslogo img{
+.fslogo {
     height: 70px;
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 100;
     background-color: white;
+}
+
+.fslogo img{
+    height: 70px;
+    /* background-color: white; */
     padding: 0 50px;
+    cursor: pointer;
 }
 
 .devName{
@@ -57,7 +60,10 @@ body{
 
 .nav{
     /* text-transform: uppercase; */
-    position: relative;
+    /* position: relative; */
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .nav ul{
